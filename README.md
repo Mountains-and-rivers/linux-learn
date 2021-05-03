@@ -39,7 +39,7 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 
 ### 浏览器访问
 
-图片1
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/01.png)
 
 ### nethogs工具
 
@@ -47,7 +47,7 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 nethogs wlp2s0
 ```
 
-图片2
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/02.png)
 
 ### iftop工具
 
@@ -55,7 +55,7 @@ nethogs wlp2s0
 iftop -i wlp2s0 -P
 ```
 
-图片3
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/03.png)
 
 
 
@@ -76,8 +76,8 @@ iftop -i wlp2s0 -P
 
 打开wireshark，在"文件"->“打开”，选择weatherservice.cap，如下图：
 
-图片4
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/04.png)
 
 选择ipv4
 
-图片5
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/05.png)
