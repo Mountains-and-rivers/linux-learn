@@ -82,6 +82,22 @@ iftop -i wlp2s0 -P
 
 ![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/05.png)
 
+双击指定ip
+
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/06.png)
+
+如果内容是gzip压缩过的，在上图的窗口中就无法看到压缩前的真实内容了，为了看到压缩前的真实内容，请参照下面的步骤
+
+关闭弹出窗口，回到wireshark的主窗口，在菜单上选择"文件"->“导出对象”->“HTTP…”，如下图：
+
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/07.jpg)
+
+如下图，在弹出的窗口选中要查看的包，点击底部的"save"按钮，给要导出的文件起个名字(后缀是.html)，再点击"保存"
+
+![image](https://github.com/Mountains-and-rivers/linux-learn/blob/main/images/08.jpg)
+
+用浏览器打开前面保存的response.html文件，即可见到整个body解压缩后的内容
+
 ### 分析http报文 
 
 ```
